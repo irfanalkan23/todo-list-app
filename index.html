@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+
+<!-- https://cdnjs.com/libraries/font-awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>    
+
+<img src="todo-image.jpg" alt="todo-image" />
+<h1>My Todo List</h1>
+<form onsubmit="return false">
+    <textarea placeholder="Type a new todo item"></textarea>
+    <button id="addBtn">
+        <p>Add Todo Item</p>
+    </button>
+</form>
+<section>
+    <h4>Current Todo List:</h4>
+    <div class="todoContainer">
+        <!-- <div class="todo">
+            <p>this is a placeholder todo item which will be replaced</p>
+            <div class="btnContainer">
+                <button class="iconBtn">
+                    <i class="fa-solid fa-pen-to-square"></i>
+
+                </button>
+                <button class="iconBtn">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div> -->
+    </div>
+</section>
+
+</body>
+<script src="index.js"></script>
+
+</html>
