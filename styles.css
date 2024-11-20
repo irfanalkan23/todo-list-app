@@ -50,6 +50,7 @@ form textarea {
 form button {
     padding: 4px;
     cursor: pointer;
+    min-height: 30px;
 }
 
 .todoContainer{
